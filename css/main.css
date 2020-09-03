@@ -1,0 +1,153 @@
+body {
+  font-family: 'Oswald', serif;
+  font-size: 48px;
+}
+
+html,
+body,
+header,
+.frontpage {
+  height: 100%;
+}
+
+.nav-link {
+  font-size: 30px;
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.frontpage {
+  /* The image used */
+  background-image: url("../images/background.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frontpage .title {
+  margin: 2em 100px 0em 100px;
+  text-align: center;
+  color: #dddddd;
+  font-size: 3em;
+  border-bottom: 20px solid #d3413f;
+}
+
+.frontpage .subtitle {
+  margin-top: 0.5em;
+  text-align: center;
+  color: #9b9da0;
+  font-size: 40px;
+  font-family: "Open Sans";
+}
+
+.seminars {
+  background-image: url("../images/background2.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seminars .title {
+  margin-top: 1em;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.seminars .subtitle {
+  margin-top: 0.8em;
+  margin-bottom: 100px;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+.workshops {
+  background-color: #d3413f;
+  height: 100%;
+}
+
+.workshops .title {
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.workshops .subtitle {
+  margin-top: 0.8em;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+.summercamps {
+  background-color: #dae1e7;
+  height: 100%;
+}
+
+.summercamps .title {
+  margin-top: 1em;
+  text-align: center;
+  color: #48586f;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.summercamps .subtitle {
+  margin-top: 0.8em;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #48586f;
+  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+footer {
+  padding: 1em;
+  font-size: 20px;
+  color: #dddddd;
+
+  text-align: center;
+
+  /* The image used */
+  background-image: url("../images/background.jpeg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer a {
+  color: #dddddd;
+}
