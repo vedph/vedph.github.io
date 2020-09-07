@@ -1,67 +1,9 @@
 ---
+layout: default
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Google font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-
-    <!-- our CSS -->
-    <link rel="stylesheet" href="css/main.css">
-
-    <title>VedPH events and materials</title>
-  </head>
-
-  <body>
     <header>
 
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="VedPH" height="80"></img></a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#seminars">Seminars</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#workshops">Workshops</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#summercamps">Summercamps</a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.twitter.com/venicedph"><i class="fa fa-twitter" style="font-size:24px"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/vedph"><i class="fa fa-github" style="font-size:24px"></i></a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" href="mailto:vedph@unive.it"><i class="fa fa-envelope" style="font-size:24px"></i></a>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-      </nav>
+      {% include navbar.html %}
 
       <!-- Front page -->
       <div class="frontpage">
@@ -93,7 +35,7 @@
 
           <div class="row">
             <div class="col-sm title">
-              Seminars cycles
+              Seminars series
             </div>
           </div>
 
@@ -202,23 +144,3 @@
         </div>
       </div>
     </main>
-
-    <footer>
-        <img style="max-width: 10%; min-width: 150px; opacity: 0.7;" src="images/logo.png"/>
-        <div class="footer-social my-4">
-          <a href="https://www.twitter.com/venicedph" target="_blank"><i class='fa fa-twitter'></i></a>
-          <a href="https://github.com/vedph" target="_blank"><i class='fa fa-github'></i></a>
-          <a href="mailto:vedph@unive.it"><i class='fa fa-envelope' target="_blank"></i></a>
-        </div>
-
-        <p>© 2020 All rights reserved.</p>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
