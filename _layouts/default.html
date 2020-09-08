@@ -16,6 +16,15 @@
 
     <!-- our CSS -->
     <link rel="stylesheet" href="css/main.css">
+    {% if page.name == "index.html" %}
+    <style>
+      html,
+      body,
+      header {
+        height: 100%;
+      }
+    </style>
+    {% endif %}
 
     <title>VedPH events and materials</title>
   </head>
