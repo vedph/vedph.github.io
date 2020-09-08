@@ -157,12 +157,19 @@ footer a {
 }
 
 .carousel-item {
-  min-height: 350px;
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
   border-left: 1px;
   border-right: 1px;
+}
+
+.carousel-item-main {
+  min-height: 350px;
+}
+
+.carousel-item-seminarseries {
+  min-height: 250px;
 }
 
 .carousel-item h3, h2, h4, h5 {

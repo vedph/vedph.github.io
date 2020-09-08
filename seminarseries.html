@@ -17,11 +17,11 @@ layout: default
         <div class="container">
 
           <div class="row">
-            <div class="col-sm title">
-              Seminars series
-            </div>
+            <div>Seminars in Digital and Public Humanities</div>
           </div>
-
+          <div class="row">
+            <h4>Seminars 2020/2021</h4>
+          </div>
           <div class="row">
             <div class="col-sm carousel">
               <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
@@ -42,12 +42,13 @@ layout: default
 
                   // we must set 'active' to the first one only. This variable is used to identify when the first one has been added.
                   let activefound = false;
+                  let linkId = 0;
 
                   seminars.forEach((seminar, id) => {
                     if (seminar.datelimit < date) return;
 
                     const div = document.createElement("div");
-                    div.setAttribute("class", "carousel-item" + (!activefound ? " active" : ""));
+                    div.setAttribute("class", "carousel-item carousel-item-seminarseries" + (!activefound ? " active" : ""));
                     activefound = true;
 
                     const content = document.createElement("div");
@@ -67,8 +68,12 @@ layout: default
                     content.appendChild(from);
 
                     const title = document.createElement("h4");
-                    title.innerText = seminar.title;
                     content.appendChild(title);
+
+                    const link = document.createElement("a");
+                    link.innerText = seminar.title;
+                    link.setAttribute('href', `#link${linkId++}`);
+                    title.appendChild(link);
 
                     carousel.appendChild(div);
                   });
@@ -84,6 +89,22 @@ layout: default
               </div>
             </div>
           </div>
+          <script>
+            linkId = 0;
+            seminars.forEach(seminar => {
+              document.write(`
+              <div class="card">
+                 <a id="link${linkId++}"/>
+                 <div class="card-body">
+                   <h5>⏰ ${seminar.date}</h5>
+                   <h4>${seminar.who}</h4>
+                   <h6>(${seminar.from})</h6>
+                   <h5><em>${seminar.title}</em></h5>
+                </div>
+              </div>
+              `);
+            });
+          </script>
         </div>
       </div>
     </main>

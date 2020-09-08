@@ -18,7 +18,7 @@ layout: default
 
             <div class="row">
               <div class="col-sm subtitle">
-                Venice Center for Digital and Public Humanties
+                Venice Centre for Digital and Public Humanities
               </div>
             </div>
 
@@ -59,12 +59,12 @@ layout: default
 
                   // we must set 'active' to the first one only. This variable is used to identify when the first one has been added.
                   let activefound = false;
-
+                  
                   seminars.forEach((seminar, id) => {
                     if (seminar.datelimit < date) return;
 
                     const div = document.createElement("div");
-                    div.setAttribute("class", "carousel-item" + (!activefound ? " active" : ""));
+                    div.setAttribute("class", "carousel-item carousel-item-main" + (!activefound ? " active" : ""));
                     activefound = true;
 
                     const content = document.createElement("div");
