@@ -3,6 +3,12 @@ body {
   font-size: 48px;
 }
 
+p {
+  font-family: Open Sans;
+  font-size: 12px;
+  text-align: justify;
+}
+
 .nav-link {
   font-size: 30px;
 }
