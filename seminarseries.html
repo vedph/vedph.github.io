@@ -23,7 +23,7 @@ layout: default
             <h4>Seminars 2020/2021</h4>
           </div>
           <div class="row">
-            <p style="font-size: 14px !important;"><em>Seminars in Digital and Public Humanities</em> are organized by VeDPH and thought as an opportunity to present research projects related to Digital and Public Humanities. Started in October 2019 as seminars in presence, since the end of February 2020, because of the COVID-19 emergency,have been online events for our community. Every event is recorded and published in our <a href="https://www.youtube.com/channel/UCpVTd9npww6UwFQti5yu4NQ">YouTube channel</a>.<br/>Seminars will be held on Zoom at this link:</p>
+            <p style="font-size: 14px !important;"><em>Seminars in Digital and Public Humanities</em> are organized by VeDPH and thought as an opportunity to present research projects related to Digital and Public Humanities. Started in October 2019 as seminars in presence, since the end of February 2020, because of the COVID-19 emergency,have been online events for our community. Every event is recorded and published in our <a href="https://www.youtube.com/channel/UCpVTd9npww6UwFQti5yu4NQ">YouTube channel</a>.<br/>Seminars will be held on Zoom.</p>
           </div>
           <div class="row">
             <div class="col-sm carousel">
@@ -95,6 +95,11 @@ layout: default
           <script>
             linkId = 0;
             seminars.forEach(seminar => {
+              let zoomLink = "";
+              if (seminar.zoom) {
+                zoomLink = `<p>Link zoom: <a href="${seminar.zoom}"}>${seminar.zoom}</a><br>${seminar.meeting}<br>${seminar.passcode}</p>`;
+              }
+
               document.write(`
               <div class="card card-seminar">
                  <a id="link${linkId++}"/>
@@ -104,6 +109,7 @@ layout: default
                    <h6>(${seminar.from})</h6>
                    <h5><em>${seminar.title}</em></h5>
                    <p>${seminar.abstract || ""}</p>
+                   ${zoomLink}
                 </div>
               </div>
               `);

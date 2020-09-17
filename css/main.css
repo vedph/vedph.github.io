@@ -187,7 +187,8 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-  .summercamps {
+  .summercamps
+   {
     font-size: 0.8em;
   }
 }
