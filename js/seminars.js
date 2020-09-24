@@ -6,6 +6,9 @@ let seminars = [
     from: "VeDPH, Ca’ Foscari University of Venice",
     title: "We Need a Database! Digitization Practices in Contemporary Art Ventures and Emergent Trends",
     abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    zoom: "https://unive.zoom.us/j/91596187539",
+    meeting: "ID riunione: 915 9618 7539",
+    passcode: "Passcode: H8m2!9"
   },
   {
     date: "14 October 2020, h 11:00",
@@ -13,6 +16,10 @@ let seminars = [
     who: "Tanya Evans",
     from: "Macquarie University, Sydney",
     title: "History, Heritage and Environmental Change in a Deindustrialised Landscape",
+    abstract: "ABSTRACT: As the first collaborative and multidisciplinary, scholarly and community-based study of a forgotten shale-mining settlement in the environmentally and culturally significant Jamison Valley in the Blue Mountains, this project aims to advance knowledge and enable cross-generational engagement with the history and heritage of an industrial landscape, thereby improving our understanding of the long-term impact of deindustrialisation. By combining archaeological, archival and oral evidence the project aims to provide new insights into everyday working and family life, community, gender, transiency and migration that can contribute to conservation of this site and its industrial heritage, cultural heritage tourism and education at a time of environmental change.",
+    zoom: "https://unive.zoom.us/j/91596187539",
+    meeting: "ID riunione: 915 9618 7539",
+    passcode: "Passcode: H8m2!9"
   },
   {
     date: "28 October 2020, h 17:00",

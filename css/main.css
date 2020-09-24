@@ -4,7 +4,7 @@ body {
 }
 
 p {
-  font-family: Open Sans;
+  font-family: 'Open Sans' sans-serif;
   font-size: 12px !important;
   text-align: justify;
 }
@@ -230,7 +230,7 @@ footer a {
 }
 
 .carousel-item h3, h2, h4, h5 {
-  font-family: "Open Sans";
+  font-family: "Oswald" sans-serif;
   color: black;
 }
 
