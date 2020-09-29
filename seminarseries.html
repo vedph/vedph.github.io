@@ -99,7 +99,6 @@ layout: default
               if (seminar.zoom) {
                 zoomLink = `<p>Link zoom: <a href="${seminar.zoom}"}>${seminar.zoom}</a><br>${seminar.meeting}<br>${seminar.passcode}</p>`;
               }
-                  
               document.write(`
               <div class="card card-seminar">
                  <a id="link${linkId++}"/>
@@ -109,6 +108,7 @@ layout: default
                    <h6>(${seminar.from})</h6>
                    <h5><em>${seminar.title}</em></h5>
                    <p>${seminar.abstract || ""}</p>
+                   <p>${seminar.bio || ""}</p>
                     ${zoomLink}
                 </div>
               </div>
