@@ -264,3 +264,7 @@ footer a {
 footer p {
   text-align: center;
 }
+
+a.tube {
+  font-size: 1em;
+}

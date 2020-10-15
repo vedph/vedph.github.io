@@ -97,8 +97,13 @@ layout: default
             seminars.forEach(seminar => {
               let zoomLink = "";
               if (seminar.zoom) {
-                zoomLink = `<p>Link zoom: <a href="${seminar.zoom}"}>${seminar.zoom}</a><br>${seminar.meeting}<br>${seminar.passcode}</p>`;
+                zoomLink = `<p>Link zoom: <a href="${seminar.zoom}">${seminar.zoom}</a><br>${seminar.meeting}<br>${seminar.passcode}</p>`;
               }
+              let youtubeLink = "";
+              if (seminar.youtube) {
+                youtubeLink = `<p>Now available on <a href="${seminar.youtube}">youtube</a></p>`;
+              }
+
               document.write(`
               <div class="card card-seminar">
                  <a id="link${linkId++}"/>
@@ -110,14 +115,14 @@ layout: default
                    <p>${seminar.abstract || ""}</p>
                    <p>${seminar.bio || ""}</p>
                    <p>${seminar.bios || ""}</p>
-                   <p>${seminar.youtube || ""}</p>
                    <p>${seminar.material || ""}</p>
-                    ${zoomLink}
+                  ${zoomLink} ${youtubeLink}
                 </div>
               </div>
               `);
             });
           </script>
+
         </div>
       </div>
     </main>
