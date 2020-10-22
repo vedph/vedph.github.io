@@ -97,7 +97,7 @@ layout: default
             seminars.forEach(seminar => {
               let zoomLink = "";
               if (seminar.zoom) {
-                zoomLink = `<p>Link zoom: <a href="${seminar.zoom}">${seminar.zoom}</a><br>${seminar.meeting}<br>${seminar.passcode}</p>`;
+                zoomLink = `<p>Link for zoom subscription: <a href="${seminar.zoom}">${seminar.zoom}</a></p>`;
               }
               let youtubeLink = "";
               if (seminar.youtube) {

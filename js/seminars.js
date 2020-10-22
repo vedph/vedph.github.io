@@ -31,9 +31,7 @@ let seminars = [
     title: "The Bestseller Code: Predicaments of Predicting High Value Fiction",
     abstract: "ABSTRACT: Publishing literature is a precarious business these days. Ever greater numbers of books are being published, but revenue for literary production is falling consistently over the years. Increasingly literary publishers rely on a few bestsellers to 'win big' so publishing literature remains a viable business. Therefore it is not just interesting from a literary studies point of view to know what text immanent properties are characteristic for bestsellers. This knowledge may even prove vital for literary production to survive. At the Huygens Institute in Amsterdam a research group in the literary studies department is taking a computational approach to this problem. Their research applies advanced computational statistics and machine learning techniques to pinpoint textual markers that can be associated with successful fiction writing. In this lecture their methods are explained and results are critically evaluated.",
     bio: "Drs. Joris J. van Zundert is a senior researcher and developer in humanities computing. He works in the department of literary studies at the Huygens Institute, a research institute of The Netherlands Royal Academy of Arts and Sciences (KNAW). His main research interest is in computational algorithms for the analysis of literary and historic texts, and the nature and properties of humanities information and data modeling. His current computational analytic work focuses on the correlation between text immanent features of texts and sociological processes around the concept of literature. Additionally he is interested in computational approaches to stemmatology, narratology, and scholarly editions.",
-    zoom: "https://unive.zoom.us/j/91596187539",
-    meeting: "ID riunione: 915 9618 7539",
-    passcode: "Passcode: H8m2!9"
+    zoom: "https://unive.zoom.us/meeting/register/tJUofu-ppjwvGd3BlvJLj6WZIOmyQYDoOzuM",
   },
   {
     date: "11 November 2020, h 17:00",
@@ -43,9 +41,7 @@ let seminars = [
     title: "Infrastructure, Skills, Voice: Digital Participation Beyond Access in Post-Industrial Heritage",
     abstract: "Digital communication is often conceived of as democratising heritage. Sharing information about hard to reach locations, or making more detailed information available than is possible on tradition information boards. Even this seminar series shows the power of digital heritage to cross borders. But it also creates new borders.  In post industrial cities, access to infrastructure and digital literacy can reinforce the exclusion that people may experience from their own pasts. The pandemic has made these issues all the more pressing. This paper will look at these issues in Swansea South Wales to consider the interaction between digital methods and participation.",
     bio: "Sarah May is a Senior Lecturer in Public History and Heritage at Swansea University in South Wales. Coming from an archaeology background, with a particular interest in digital methods, she has worked in private, public and academic contexts. For the last 20 years her focus has been on heritage, with a particular interest in participatory approaches.",
-    zoom: "https://unive.zoom.us/j/91596187539",
-    meeting: "ID riunione: 915 9618 7539",
-    passcode: "Passcode: H8m2!9"
+    zoom: "https://unive.zoom.us/meeting/register/tJUofu-ppjwvGd3BlvJLj6WZIOmyQYDoOzuM",
   },
   {
     date: "25 November 2020, h 17:00",
@@ -55,9 +51,7 @@ let seminars = [
     title: "What is ‘Digital Latin’? An Overview of the Digital Latin Library",
     abstract: "ABSTRACT: This presentation will begin with a deliberate misreading of the names of the Digital Latin Library and its Library of Digital Latin Texts. Although 'digital' is meant to modify 'library' and 'texts', respectively, it could just as easily apply to 'Latin', which prompts our question: 'What is digital Latin?' In truth, the DLL hews closely to the methods and practices of traditional textual criticism, and it does not seek to replace traditional printed editions with digital ones. Instead, it aims to promote a different perspective on texts themselves, not only as printed objects, but also as databases of information that can be stored, queried, visualized, and read in a variety of ways. Accordingly, this presentation will interrogate the idea of 'digital Latin' through a survey of the DLL's current and ongoing projects, with a view to highlighting the DLL's efforts to connect Latin's analog past with its digital future.",
     bio: "Samuel J. Huskey received his Ph.D. in Classics from the University of Iowa. He is currently a professor in the Department of Classics and Letters at the University of Oklahoma. He also directs the Digital Latin Library, a project supported by the Andrew W. Mellon Foundation, the Society for Classical Studies, the Medieval Academy of America, and the Renaissance Academy of America. The subjects of his publications include Ovid's exile poetry, Boccaccio's bucolic poetry, the intersection of philology with digital technology, and the evaluation of digital scholarship.",
-    zoom: "https://unive.zoom.us/j/91596187539",
-    meeting: "ID riunione: 915 9618 7539",
-    passcode: "Passcode: H8m2!9"
+    zoom: "https://unive.zoom.us/meeting/register/tJUofu-ppjwvGd3BlvJLj6WZIOmyQYDoOzuM",
   },
   {
     date: "9 December 2020, h 17:00",
@@ -68,8 +62,6 @@ let seminars = [
     abstract: "ABSTRACT: 1516 is an online database of illustrations printed in the 15th and 16th century. This database can be searched using an image as a search query  as well as using text keyword for searching metadata assigned to the  illustrations. Such a visual and text search capability allows research  scholars to track and investigate the production, use, circulation and  copying of woodblocks, iconographic subjects, artistic styles, within  15th and 16th-century printed illustrated editions. The database is  publicly accessible and accepts contributions of new illustrations and  metadata from research scholars from all over the world. The 1516  project is an evolutionary next step of the existing 15cILLUSTRATION  database, which is based solely on illustrations printed in the 15th  century. The possibility of searching together images printed in the  15th and in the 16th century represents a natural and novel step  forward, as woodblocks and iconographic themes travelled well beyond  chronological boundaries. The 1516 database is being developed by Dr  Abhishek Dutta, Dr Matilde Malaspina and Dr Barbara Tramelli under the  guidance of Prof. Andrew Zisserman and Prof. Cristina Dondi. ",
     bio: "Abhishek Dutta is a Senior Research Software Engineer in the Visual  Geometry Group (VGG) of the Department of Engineering Science at Oxford  University. He develops, maintains and supports open source software  tools that are based on computer vision research. He also manages a  large number of interdisciplinary academic projects and industrial  applications that rely on these software tools. Examples of such  interdisciplinary projects include the 15cILLUSTRATION project and the  1516 project.",
     bios: " Matilde Malaspina is a Postdoctoral Research Fellow at the University of Copenhagen (November 2020), working on the library of Hernando Colon. In 2019 she completed her PhD at the University of Oxford, where she was a member of the 15cBOOKTRADE Project (ERC 2014-2019). Prior to that, she got her BA and MA from the Università Cattolica del Sacro Cuore (Milan, Italy), where she specialised in Medieval and Humanistic Philology. During her PhD, together with Prof. Cristina Dondi and in collaboration with the Visual Geometry Group, she conceived and created the 15cILLUSTRATION, a database to track the use and reuse of printed illustrations in 15th-century editions.",
-    zoom: "https://unive.zoom.us/j/91596187539",
-    meeting: "ID riunione: 915 9618 7539",
-    passcode: "Passcode: H8m2!9"
+    zoom: "https://unive.zoom.us/meeting/register/tJUofu-ppjwvGd3BlvJLj6WZIOmyQYDoOzuM",
   }
 ];
