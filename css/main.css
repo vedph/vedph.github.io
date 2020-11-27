@@ -156,6 +156,17 @@ p {
   font-size: 25px;
 }
 
+.workshops .link {
+  text-align: center;
+  font-size: 0.6em;
+  margin-bottom: 1em;
+}
+
+.workshops p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 500px) {
   .workshops {
     font-size: 0.8em;
@@ -259,6 +270,10 @@ footer a {
 
 .seminars a {
   color: #c00;
+}
+
+.workshops a {
+  color: #87a9cd;
 }
 
 footer p {
