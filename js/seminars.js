@@ -64,5 +64,89 @@ let seminars = [
     bio: "Abhishek Dutta is a Senior Research Software Engineer in the Visual  Geometry Group (VGG) of the Department of Engineering Science at Oxford  University. He develops, maintains and supports open source software  tools that are based on computer vision research. He also manages a  large number of interdisciplinary academic projects and industrial  applications that rely on these software tools. Examples of such  interdisciplinary projects include the 15cILLUSTRATION project and the  1516 project.",
     bios: " Matilde Malaspina is a Postdoctoral Research Fellow at the University of Copenhagen (November 2020), working on the library of Hernando Colon. In 2019 she completed her PhD at the University of Oxford, where she was a member of the 15cBOOKTRADE Project (ERC 2014-2019). Prior to that, she got her BA and MA from the Università Cattolica del Sacro Cuore (Milan, Italy), where she specialised in Medieval and Humanistic Philology. During her PhD, together with Prof. Cristina Dondi and in collaboration with the Visual Geometry Group, she conceived and created the 15cILLUSTRATION, a database to track the use and reuse of printed illustrations in 15th-century editions.",
     zoom: "https://unive.zoom.us/meeting/register/tJUofu-ppjwvGd3BlvJLj6WZIOmyQYDoOzuM",
-  }
+  },
+  {
+    date: "3 February 2021, h 17:00",
+    datelimit: 20210203,
+    who: "Ernesto Priego",
+    from: "City, University of London",
+    title: "Open Access Comics Studies as Digital Public Humanities: Insights from a Decade of The Comics Grid: Journal of Comics Scholarship",
+    // abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
+    date: "17 February 2021, h 17:00",
+    datelimit: 20210217,
+    who: "Marta Severo",
+    from: "Université Paris Nanterre",
+    title: "Cultural Heritage, Participation and Platforms: Theoretical and Methodological Challenges",
+    // abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
+    date: "3 March 2021, h 17:00",
+    datelimit: 20210303,
+    who: "Michael B. Toth",
+    from: "R.B. Toth Associates",
+    title: "Advanced Imaging to Support the Digital Humanities",
+    // abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
+    date: "17 March 2021, h 17:00",
+    datelimit: 20210317,
+    who: "Fabrizio Nevola",
+    from: "University of Exeter",
+    title: "Hidden Florence and Hidden Cities: Rediscovering the Renaissance City Using New Technologies",
+    // abstract: " ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
+    date: "14 April 2021, h 17:00",
+    datelimit: 20210414,
+    who: "Maurizio Forte",
+    from: "Duke University",
+    title: "Principles of Cyberarchaeology",
+    // abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
+    date: "28 April 2021, h 17:00",
+    datelimit: 20210428,
+    who: "Tiziana Mancinelli",
+    from: "VeDPH, Ca’ Foscari University of Venice",
+    title: "From Modeling to Publishing: Digital Scholarship in Practice",
+    // abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
+    date: "12 May 2021, h 17:00",
+    datelimit: 20210512,
+    who: "Dániel Kiss",
+    from: "Universitat de Barcelona, VeDPH, Ca’ Foscari University of Venice",
+    title: "‘Catullus Online’ and Digital Latin: Radical Innovation or Media Change?",
+    // abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
 ];

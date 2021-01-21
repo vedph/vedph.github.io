@@ -48,37 +48,38 @@ layout: default
                   let linkId = 0;
 
                   seminars.forEach((seminar, id) => {
-                    if (seminar.datelimit < date) return;
+                    if (seminar.datelimit >= date) {
+                      const div = document.createElement("div");
+                      div.setAttribute("class", "carousel-item carousel-item-seminarseries" + (!activefound ? " active" : ""));
+                      activefound = true;
 
-                    const div = document.createElement("div");
-                    div.setAttribute("class", "carousel-item carousel-item-seminarseries" + (!activefound ? " active" : ""));
-                    activefound = true;
+                      const content = document.createElement("div");
+                      content.setAttribute("class", "carousel-caption d-none d-md-block");
+                      div.appendChild(content);
 
-                    const content = document.createElement("div");
-                    content.setAttribute("class", "carousel-caption d-none d-md-block");
-                    div.appendChild(content);
+                      const when = document.createElement("h3");
+                      when.innerText = seminar.date;
+                      content.appendChild(when);
 
-                    const when = document.createElement("h3");
-                    when.innerText = seminar.date;
-                    content.appendChild(when);
+                      const who = document.createElement("h2");
+                      who.innerText = seminar.who;
+                      content.appendChild(who);
 
-                    const who = document.createElement("h2");
-                    who.innerText = seminar.who;
-                    content.appendChild(who);
+                      const from = document.createElement("h5");
+                      from.innerText = seminar.from;
+                      content.appendChild(from);
 
-                    const from = document.createElement("h5");
-                    from.innerText = seminar.from;
-                    content.appendChild(from);
+                      const title = document.createElement("h4");
+                      content.appendChild(title);
 
-                    const title = document.createElement("h4");
-                    content.appendChild(title);
+                      const link = document.createElement("a");
+                      link.innerText = seminar.title;
+                      link.setAttribute('href', `#link${linkId}`);
+                      title.appendChild(link);
 
-                    const link = document.createElement("a");
-                    link.innerText = seminar.title;
-                    link.setAttribute('href', `#link${linkId++}`);
-                    title.appendChild(link);
-
-                    carousel.appendChild(div);
+                      carousel.appendChild(div);
+                    }
+                    linkId++;
                   });
                 </script>
                 <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
