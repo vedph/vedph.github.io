@@ -114,6 +114,18 @@ let seminars = [
   
   },
   {
+    date: "31 March 2021, h 17:00",
+    datelimit: 20210331,
+    who: "Erma Hermens",
+    from: "University of Amsterdam – RijksmuseumVeDPH, Ca’ Foscari University of Venice",
+    title: "Beautiful Data: Digital Contexts for Object-Based Research and Issues of Interoperability",
+    //abstract: "The award winning Hidden Florence app (published in 2014 - with major updates in 2019 - free for iOS and Android) offers users an unconventional tour of Renaissance Florence, using historical guide characters, GPS and Stefano Buonsignori’s beautiful woodcut map of the city. The HERA-funded Hidden Cities project recently launched 5 new city apps that develop the same format, extending it through connecting with museum objects documenting the material culture of public space. This talk presents a number of illustrated vignettes of street life in the Renaissance city that inform the app’s many stories; from pub brawls to football games, charitable gift-giving to elite patronage. In so doing it shows how new technologies and digital approaches can shed light on material traces of the past still visible - but often overlooked - in the present day city fabric, offering clues to how people lived in the past.",
+    //bio: "Prof. Fabrizio Nevola is Professor of Art History and Visual Culture at the University of Exeter. He specialises on the urban and architectural history of Early Modern cities, while recent work has involved significant elements of digital humanities approaches. Hidden Cities considers the public spaces of Early Modern Europe and includes five city apps and a website www.hiddencities.eu, extending the original Hidden Florence model. Florence4D, funded by the Getty Foundation, focuses on the integration of 3D modelling and mapping of urban environments, with an underlying database (www.florence4d.org); the related Hidden Florence 3D app was recently awarded a UK industry award for best use of AR/3D in an app. He is the author of the prize-winning Siena: Constructing the Renaissance City (Yale University Press, 2007) and most recently of Street Life in Renaissance Italy (Yale University Press, 2020). ",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
+  
+  },
+  {
     date: "14 April 2021, h 17:00",
     datelimit: 20210414,
     who: "Maurizio Forte",
