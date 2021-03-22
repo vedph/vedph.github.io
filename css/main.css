@@ -133,9 +133,49 @@ p {
   }
 }
 
+.phdevents {
+  background-color: #7b69b6;
+  min-height: 8em;
+}
+
+.phdevents .title {
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.phdevents .subtitle {
+  margin-top: 0.8em;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+.phdevents .link {
+  text-align: center;
+  font-size: 0.6em;
+  margin-bottom: 1em;
+}
+
+.phdevents p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .phdevents
+   {
+    font-size: 0.8em;
+  }
+}
 .workshops {
   background-color: #d3413f;
-  height: 100%;
+  min-height: 8em;
 }
 
 .workshops .title {
@@ -158,6 +198,7 @@ p {
 
 .workshops .link {
   text-align: center;
+  color: #c00;
   font-size: 0.6em;
   margin-bottom: 1em;
 }
@@ -175,7 +216,7 @@ p {
 
 .summercamps {
   background-color: #dae1e7;
-  height: 100%;
+  min-height: 8em;
 }
 
 .summercamps .title {
@@ -273,6 +314,10 @@ footer a {
 }
 
 .workshops a {
+  color: #87a9cd;
+}
+
+.phdevents a {
   color: #87a9cd;
 }
 
