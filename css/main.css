@@ -173,6 +173,49 @@ p {
     font-size: 0.8em;
   }
 }
+
+.maprogramme {
+  background-color: #d3413f;
+  min-height: 8em;
+}
+
+.maprogramme .title {
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.maprogramme .subtitle {
+  margin-top: 0.8em;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+.maprogramme .link {
+  text-align: center;
+  color: #d3413f;
+  font-size: 0.6em;
+  margin-bottom: 1em;
+}
+
+.maprogramme p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .maprogramme {
+    font-size: 0.8em;
+  }
+}
+
+
 .workshops {
   background-color: #d3413f;
   min-height: 8em;
