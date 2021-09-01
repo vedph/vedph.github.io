@@ -75,7 +75,7 @@ let seminars = [
     bio: "Ernesto Priego is a lecturer in the Department of Computer Science of City University of London and a researcher affiliated to the Centre for Human Computer Interaction Design at City. He holds a PhD in Library and Information Studies (University College London) and his background is in cultural studies (UEA Norwich) and English literature (UNAM).As a researcher he is also affiliated to the UCL Centre for Digital Humanities. He is the editor-in-chief and co-founder of The Comics Grid Journal of Comics Scholarship, a peer-reviewed open access journal published by the Open Library of Humanities. He has served in various international digital humanities academic committees, including the ad hoc communications committee of the Alliance of Digital Humanities Organizations' (ADHO) and the executive council of the Association for Computers in the Humanities (ACH).",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "17 February 2021, h 17:00",
@@ -87,7 +87,7 @@ let seminars = [
     bio: "is a full professor in Information and Communication Sciences at the University of Paris Nanterre and a junior member of the Institut Universitaire de France. She is a member and deputy director of the Dicen-IDF laboratory. Participatory and contributory online practices, representations of places through web data, social media analysis and information visualization are among the research themes she is developing. It has obtained several funding (in particular the ANR COLLABORA project on cultural participatory platforms). In 2019, she joined the scientific board of Open Edition.",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "3 March 2021, h 17:00",
@@ -99,7 +99,7 @@ let seminars = [
     bio: "Michael B. Toth, president of R.B. Toth Associates, is an international leader in using advanced technologies for cultural heritage studies around the globe.  With over 30 years of experience with technical integration, program management and strategic planning, he has led teams of scientists, scholars and technical experts as they help museums, libraries and other institutions make new information widely available for all.  Mike has led advanced digitization, imaging and information technology projects to provide data and information for research and open access.  He provides the planning, implementation, operation and management needed for efficient research and development, integration and access.",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "17 March 2021, h 17:00",
@@ -111,7 +111,7 @@ let seminars = [
     bio: "Prof. Fabrizio Nevola is Professor of Art History and Visual Culture at the University of Exeter. He specialises on the urban and architectural history of Early Modern cities, while recent work has involved significant elements of digital humanities approaches. Hidden Cities considers the public spaces of Early Modern Europe and includes five city apps and a website www.hiddencities.eu, extending the original Hidden Florence model. Florence4D, funded by the Getty Foundation, focuses on the integration of 3D modelling and mapping of urban environments, with an underlying database (www.florence4d.org); the related Hidden Florence 3D app was recently awarded a UK industry award for best use of AR/3D in an app. He is the author of the prize-winning Siena: Constructing the Renaissance City (Yale University Press, 2007) and most recently of Street Life in Renaissance Italy (Yale University Press, 2020). ",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "31 March 2021, h 17:00",
@@ -124,7 +124,7 @@ let seminars = [
     zoom: "bit.ly/39dK6vA"
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "14 April 2021, h 17:00",
@@ -136,7 +136,7 @@ let seminars = [
     bio: "Maurizio Forte, PhD, is William and Sue Gross distinguished Professor of Classical StudiesArt, Art History, and Visual Studies, Bass Chair and Director and founder of the DIG@Labat Duke University. His main research topics are:, classical archaeology,digital archaeologyand neuro-archaeology.He was professor of World Heritage at the University of California, Merced, (School of Social Sciences, Humanities and Arts)and Director of the Virtual Heritage Lab. He was Chief of Research at CNR (Italian National Research Council) of “Virtual Heritage: integrated digital technologies for knowledge and communication of cultural heritage through virtual reality systems”. He received his bachelor’s degree in Ancient History (archaeology), and a Diploma of specialization in Archaeology, from the University of Bologna, and his PhD in Archaeology from the University of Rome “La Sapienza”.  He has coordinated archaeological fieldwork and research projects in Italy as well as Ethiopia, Egypt, Syria, Kazakhstan, Peru, China, Oman, India, Honduras, Turkey, USA and Mexico.  Since 2014 he is director of the Vulci 3000 Project. He is editor and author of several books including “Virtual Archaeology” (1996), Virtual Reality in Archaeology (2000), “From Space to Place” (2006), “Cyberarchaeology (2012), Digital Methods and Remote Sensing in Archaeology, Digital CitiesbetweenHistory and Archaeology and he has written more than 200 scientific papers.",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "28 April 2021, h 17:00",
@@ -148,7 +148,7 @@ let seminars = [
     bio: "Tiziana Mancinelli completed a Ph.D. in Textual Scholarship and Digital Humanities from the University of Reading (UK). She then gained experience in modeling and developing digital scholarly editions and projects in the field of Digital Humanities working with several digital humanities centres such as CCeH (Cologne Center for eHumanities) and currently with VeDPH (Venice Centre for Digital and Public Humanities). She published in 2020 a book entitled Che cos’è un’edizione scientifica digitale co-authored by Elena Pierazzo.",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
   },
   {
     date: "12 May 2021, h 17:00",
@@ -160,6 +160,17 @@ let seminars = [
     bio: "Dániel Kiss studied Classics with Persian at Oxford and went on to write a doctoral dissertation in Latin philology at the Scuola Normale Superiore di Pisa. His discoveries as a graduate student, including a neglected archive of philological notes at the University of North Carolina at Chapel Hill, led him to embark on a longer research initiative on the poems of Catullus and to construct Catullus Online (2013), a pioneering digital critical edition of a major work of Latin literature. He has spent a year as a virtual Visiting Scholar at the Venice Centre for Digital and Public Humanities. He is currently working as a Ramón y Cajal Fellow at the University of Barcelona.",
     //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
     // material:"The slides are available as PDF"
-  
+
+  },
+  {
+    date: "22 September 2021, h 17:00",
+    datelimit: 20210922,
+    who: "Ray Siemens, Alyssa Arbuckle",
+    from: "University of Victoria",
+    title: "Open Social Scholarship and Engaged Publics in Digital Humanities",
+    //abstract: "ABSTRACT: What do an art dealer, a private collection, an artist studio or an estate have in common in the contemporary art sector? Usually –besides the same names of high calibre personalities in the address book– they all believe they need a database: and they need it now! They don't know exactly what they want it for and what kind of database they really need, but for sure it must be both tailor made and as good as their friend's or competitor's one. Indeed, in the last decade there was a true “database run” in the field of small and medium sized art ventures to better organise their internal workflow and to keep up with big museums. Diego Mantoan builds upon his direct expertise in planning and delivering digitisation projects for contemporary art institutes, in order to focus on theoretical issues and practical problems that arise when developing digital art archives in a sector that needs databases not just for research purposes, but rather to tackle managerial tasks as well as to enhance one’s art historical position and to strengthen market reputation.",
+    //bio: "Diego Mantoan is Junior Professor in contemporary art holding a PhD magna cum laude at Freie Universität Berlin. Recently invited as a visiting fellow at NYU, he delivered speeches at Bibliotheca Hertziana, UCL, VU Amsterdam, Sotheby’s Institute of Art. His The Road to Parnassus (Vernon Press 2015) was long-listed for the Berger Prize 2016, further editing the volume Paolozzi & Wittgenstein (Palgrave MacMillan 2019). He was director assistant and jury secretary at the Venice Biennale, then developing art archives for Douglas Gordon (Berlin), Sigmar Polke Estate (Cologne), Julia Stoschek Collection (Düsseldorf), Museo Rimoldi (Cortina). As a public art historian he collaborated with Peggy Guggenheim Collection, Fondazione Teatro La Fenice, Goethe Institut, Rai Radio3.",
+    //youtube: "https://www.youtube.com/watch?v=_cBID5NQcuo&t=1s"
+    // material:"The slides are available as PDF"
   },
 ];
