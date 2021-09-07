@@ -97,31 +97,73 @@ permalink: /seminarseries/
           <script>
             linkId = 0;
             seminars.forEach(seminar => {
-              let zoomLink = "";
-              if (seminar.zoom) {
-                zoomLink = `<p>Link for zoom subscription: <a href="${seminar.zoom}">${seminar.zoom}</a></p>`;
-              }
-              let youtubeLink = "";
-              if (seminar.youtube) {
-                youtubeLink = `<p>Now available on <a href="${seminar.youtube}">youtube</a></p>`;
+	      if (seminar.datelimit >= date) {
+                let zoomLink = "";
+                if (seminar.zoom) {
+                  zoomLink = `<p>Link for zoom subscription: <a href="${seminar.zoom}">${seminar.zoom}</a></p>`;
+                }
+                let youtubeLink = "";
+                if (seminar.youtube) {
+                  youtubeLink = `<p>Now available on <a href="${seminar.youtube}">youtube</a></p>`;
+                }
+  
+                document.write(`
+                <div class="card card-seminar">
+                   <a id="link${linkId}"/>
+                   <div class="card-body">
+                     <h5>⏰ ${seminar.date}</h5>
+                     <h4>${seminar.who}</h4>
+                     <h6>(${seminar.from})</h6>
+                     <h5><em>${seminar.title}</em></h5>
+                     <p>${seminar.abstract || ""}</p>
+                     <p>${seminar.bio || ""}</p>
+                     <p>${seminar.bios || ""}</p>
+                     <p>${seminar.material || ""}</p>
+                    ${zoomLink} ${youtubeLink}
+                  </div>
+                </div>
+                `);
               }
 
-              document.write(`
-              <div class="card card-seminar">
-                 <a id="link${linkId++}"/>
-                 <div class="card-body">
-                   <h5>⏰ ${seminar.date}</h5>
-                   <h4>${seminar.who}</h4>
-                   <h6>(${seminar.from})</h6>
-                   <h5><em>${seminar.title}</em></h5>
-                   <p>${seminar.abstract || ""}</p>
-                   <p>${seminar.bio || ""}</p>
-                   <p>${seminar.bios || ""}</p>
-                   <p>${seminar.material || ""}</p>
-                  ${zoomLink} ${youtubeLink}
+              linkId++;
+            });
+          </script>
+
+          <div class="row">
+            <h4>Previous seminars</h4>
+          </div>
+          <script>
+            linkId = 0;
+            seminars.forEach(seminar => {
+	      if (seminar.datelimit < date) {
+                let zoomLink = "";
+                if (seminar.zoom) {
+                  zoomLink = `<p>Link for zoom subscription: <a href="${seminar.zoom}">${seminar.zoom}</a></p>`;
+                }
+                let youtubeLink = "";
+                if (seminar.youtube) {
+                  youtubeLink = `<p>Now available on <a href="${seminar.youtube}">youtube</a></p>`;
+                }
+  
+                document.write(`
+                <div class="card card-seminar">
+                   <a id="link${linkId}"/>
+                   <div class="card-body">
+                     <h5>⏰ ${seminar.date}</h5>
+                     <h4>${seminar.who}</h4>
+                     <h6>(${seminar.from})</h6>
+                     <h5><em>${seminar.title}</em></h5>
+                     <p>${seminar.abstract || ""}</p>
+                     <p>${seminar.bio || ""}</p>
+                     <p>${seminar.bios || ""}</p>
+                     <p>${seminar.material || ""}</p>
+                    ${zoomLink} ${youtubeLink}
+                  </div>
                 </div>
-              </div>
-              `);
+                `);
+              }
+
+              linkId++;
             });
           </script>
 
